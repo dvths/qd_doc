@@ -1,0 +1,167 @@
+{
+  "main": {
+    "id": "e5df9e06c3e36683",
+    "type": "split",
+    "children": [
+      {
+        "id": "9b6653e0defd8f43",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a322db4c1e3df49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sendbox/guia-do-colaborador-da-documentação/Porque essa pasta existe?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9e5c150bf079a612",
+    "type": "split",
+    "children": [
+      {
+        "id": "752250a5424d115a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "feb8ad104aa43db8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6d36b4f958a23072",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0fc3d13e76ecc96a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8fb9ae54563fff03",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb44618bffdc4818",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70e7a490cc3517d5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "sendbox/guia-do-colaborador-da-documentação/Porque essa pasta existe?.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a9dbde9198efa815",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "sendbox/guia-do-colaborador-da-documentação/Porque essa pasta existe?.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "183e31fc5710a749",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0ce4129b5ae9af07",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "sendbox/guia-do-colaborador-da-documentação/Porque essa pasta existe?.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "9a322db4c1e3df49",
+  "lastOpenFiles": [
+    "10-guia-do-colaborador/Comece a colaborar com o Querido Diário.md",
+    "sendbox/guia-do-colaborador-da-documentação/Porque essa pasta existe?.md",
+    "09-guia-do-usuário/Comece a usar o Querido Diário.md",
+    "08-o-frontend/Como é feito o frontend do projeto.md",
+    "07-a-api-publica/Entenda a API Pública do Querido Diário.md",
+    "06-a-toolbox-do-querido-diario/Conheça a Toolbox do Querido Diário.md",
+    "05-o-processamento-de-dados/Como é realizado o processamento dos dados.md",
+    "04-a-coleta-de-dados/Como é feita a coleta dos dados.md",
+    "03-a-arquitetura/Como é a Arquitetura do Projeto.md",
+    "02-o-querido-diario/O que é o Querido Diário.md",
+    "README.md",
+    "templates/novo_documento.md",
+    "Untitled.md",
+    "templates/Untitled",
+    "templates"
+  ]
+}
