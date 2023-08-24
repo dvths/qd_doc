@@ -1,4 +1,7 @@
 {
   "readableLineLength": false,
-  "vimMode": true
+  "vimMode": true,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Novos Arquivos"
 }
