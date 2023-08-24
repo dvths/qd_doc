@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9b6653e0defd8f43",
+        "id": "cae50089ac9265f9",
         "type": "tabs",
         "children": [
           {
-            "id": "9a322db4c1e3df49",
+            "id": "f90485df340d3157",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sendbox/guia-do-colaborador-da-documentação/Porque essa pasta existe?.md",
+                "file": "sendbox/templates/doc_template.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sendbox/guia-do-colaborador-da-documentação/Porque essa pasta existe?.md",
+                "file": "sendbox/templates/doc_template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sendbox/guia-do-colaborador-da-documentação/Porque essa pasta existe?.md",
+                "file": "sendbox/templates/doc_template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sendbox/guia-do-colaborador-da-documentação/Porque essa pasta existe?.md"
+                "file": "sendbox/templates/doc_template.md"
               }
             }
           }
@@ -146,10 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9a322db4c1e3df49",
+  "active": "f90485df340d3157",
   "lastOpenFiles": [
-    "10-guia-do-colaborador/Comece a colaborar com o Querido Diário.md",
+    "sendbox/Untitled.md",
+    "sendbox/templates/doc_template.md",
+    "sendbox/templates",
+    "02-o-querido-diario/O que é o Querido Diário.md",
     "sendbox/guia-do-colaborador-da-documentação/Porque essa pasta existe?.md",
+    "10-guia-do-colaborador/Comece a colaborar com o Querido Diário.md",
     "09-guia-do-usuário/Comece a usar o Querido Diário.md",
     "08-o-frontend/Como é feito o frontend do projeto.md",
     "07-a-api-publica/Entenda a API Pública do Querido Diário.md",
@@ -157,7 +161,6 @@
     "05-o-processamento-de-dados/Como é realizado o processamento dos dados.md",
     "04-a-coleta-de-dados/Como é feita a coleta dos dados.md",
     "03-a-arquitetura/Como é a Arquitetura do Projeto.md",
-    "02-o-querido-diario/O que é o Querido Diário.md",
     "README.md",
     "templates/novo_documento.md",
     "Untitled.md",
