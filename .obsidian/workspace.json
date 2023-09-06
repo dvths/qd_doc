@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "cae50089ac9265f9",
+        "id": "2f7592ad210e0360",
         "type": "tabs",
         "children": [
           {
-            "id": "f90485df340d3157",
+            "id": "7b60041b707362e6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sendbox/acompanhamento.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "00b3e90a30d15054",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sendbox/Estrutura geral QD.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "db409b475e971267",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Novos Arquivos/Acessando as bases pela API.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Novos Arquivos/Acessando as bases pela API.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Novos Arquivos/Acessando as bases pela API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Novos Arquivos/Acessando as bases pela API.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -187,17 +154,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "db409b475e971267",
+  "active": "7b60041b707362e6",
   "lastOpenFiles": [
+    "Novos Arquivos/O querido diário.md",
+    "Novos Arquivos/Diários oficiais.md",
     "Sendbox/Estrutura geral QD.md",
-    "Novos Arquivos/Acessando as bases pela API.md",
     "Sendbox/Estrutura do editor da documetação.md",
-    "Sendbox/acompanhamento.md",
-    "Novos Arquivos/A API Pública.md",
+    "Novos Arquivos/API.md",
+    "Novos Arquivos/Acessando as bases pela API.md",
     "Comece por aqui/Comece por aqui.md",
+    "Sendbox/templates/doc_template.md",
+    "Sendbox/acompanhamento.md",
+    "Pasted image 20230906150850.png",
+    "Pasted image 20230906150603.png",
+    "Sendbox/guia-do-colaborador-da-documentação/Porque essa pasta existe.md",
+    "Novos Arquivos/artigo tanto.md",
+    "Novos Arquivos/Untitled 1.md",
+    "Novos Arquivos/Untitled.md",
+    "Novos Arquivos/Artigo tal.md",
+    "Novos Arquivos/A API Pública.md",
     "Novos Arquivos/O Frontend.md",
     "Novos Arquivos/A Arquitetura do Projeto.md",
-    "Novos Arquivos/O querido diário.md",
     "Os Repositórios.md",
     "README.md",
     "O processamento de dados.md",
@@ -209,17 +186,9 @@
     "02-o-querido-diario/O que é o Querido Diário.md",
     "Comece por aqui",
     "Um **Diário Oficial** é uma publicação feita por vários esferas da administração pública brasileira.md",
-    "Sendbox/templates/doc_template.md",
     "install_pre_commit.sh",
     "Sendbox/templates",
     "Sendbox/guia-do-colaborador-da-documentação/Porque essa pasta existe?.md",
-    "10-guia-do-colaborador/Comece a colaborar com o Querido Diário.md",
-    "09-guia-do-usuário/Comece a usar o Querido Diário.md",
-    "08-o-frontend/Como é feito o frontend do projeto.md",
-    "07-a-api-publica/Entenda a API Pública do Querido Diário.md",
-    "06-a-toolbox-do-querido-diario/Conheça a Toolbox do Querido Diário.md",
-    "05-o-processamento-de-dados/Como é realizado o processamento dos dados.md",
-    "04-a-coleta-de-dados/Como é feita a coleta dos dados.md",
     "templates/Untitled",
     "templates"
   ]

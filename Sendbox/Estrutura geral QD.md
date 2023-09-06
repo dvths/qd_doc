@@ -1,4 +1,4 @@
-Primeiramente, para entender a complexidade do projeto, vale a pena verificar a documentação relacionada ao ecossistema do Querido Diário, ou seja, as suas diferentes frentes. Confira isso aqui. Além disso, acompanhe o desenvolvimento geral do projeto aqui.
+Primeiramente, para entender a complexidade do projeto, vale a pena verificar a documentação relacionada ao ecossistema do [[Querido Diário]], ou seja, as suas diferentes frentes. Confira isso aqui. Além disso, acompanhe o desenvolvimento geral do projeto aqui.
 De maneira geral, é possível organizar o projeto do QD em cinco diferentes frentes:
 
 - Front-end
@@ -7,18 +7,18 @@ O front-end se refere ao desenvolvimento de sites sobre os diversos projetos que
 - Back-end
 Procurando por ‘backend’ no repositório da OKBR, é possível encontrar os repositórios dedicados ao back-end, que são as operações internas realizadas para que os sites sejam funcionais. Você pode ver como contribuir aqui.
 
-- Ciência de dados
-3.1 API Wrapper
+- [[Ciência de dados]]
+3.1 [[[[API]] Wrapper]]
 
 https://github.com/okfn-brasil/querido-diario-api-wrapper
 
 https://queridodiario.ok.org.br/api/docs#/default/Search_for_content_in_gazettes_gazettes_get
 
 
-- 3.2 QD data-processing
+- 3.2 [[QD data-processing]]
 https://github.com/okfn-brasil/querido-diario-data-processing
 
-3.3 Diários completos
+3.3 [[Diários oficiais]] completos
 https://github.com/okfn-brasil/querido-diario
 
 - Raspadores
@@ -31,7 +31,7 @@ Você pode guiar-se por aqui.
 
 Você vai precisar ter o Python instalado, bem como bibliotecas necessárias para fazer o download dos diários oficiais dos municípios. Veja esse passo a passo.
 
-Como Instalar o Python
+[[Como Instalar o Python]]
 Veja esse tutorial, caso sinta dificuldades em instalar o Python no seu computador.
 Após instalar o Python, cheque se tudo está certo com (versão 3.10):
 py –version 
