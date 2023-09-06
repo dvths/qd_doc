@@ -6,13 +6,13 @@ Por tanto, esse é mais um ponto desfavorável a uma documentação rigidamente 
 
 Esses blocos podem ser rotulados da seguinte forma:
 
-Pensando nisso, chego a conclusão que as tags são um caminho para a organização da documentação. As tags são uma forma hierárquica _suave_. Isso porque, ao adicionar tags a um grupo de documentos, podemos considerá-as um grupo coerente - funcionando como uma forma de organização espacial sem ter que mover nada de um lugar para o outro.
+Pensando nisso, chego a conclusão que as _tags_ são um caminho para a organização da documentação. As _tags_ são uma forma hierárquica _suave_. Isso porque, ao adicionar _tags_ a um grupo de documentos, podemos considerá-las um grupo coerente - funcionando como uma forma de organização espacial sem ter que mover nada de um lugar para o outro.
 
 Isso converge com a ideia de que a documentação deve ser capaz de se adaptar e se reorganizar de acordo com as necessidades dos diferentes tipos de leitores em vez de oferecer uma versão _"tamanho único"_. Portanto,  os blocos de informação são importantes;  organizam o conhecimento em pedaços padronizados que podem ser misturados e combinados para atender uma necessidade específica. Simplifica a vida tanto de quem escreve quanto de quem lê, pois permite uma personalização do processo de aprendizagem, ou seja, o leitor poderia ler do inicio ao fim, se for sua primeira passagem, ou um bloco específico mais relevante de acordo com sua necessidade. Da mesma forma, quem escreve, pode facilmente identificar os blocos que precisam ser editados, criados ou ampliados. 
 
-Para esse fim, as tags facilitam o gerenciamento dessas etapas intermediarias tanto de leitura quanto de escrita, aumentando a capacidade de rastreamento e organização do conteúdo para quem edita e a confiança do leitor em sua capacidade de compreender e aproveitar o texto. Ou seja, as tags também ajudam a distinguir duas funções da informação muito diferentes, mas caras à documentação de um software: Aprendizagem e Referência.
+Para esse fim, as _tags_ facilitam o gerenciamento dessas etapas intermediarias tanto de leitura quanto de escrita, aumentando a capacidade de rastreamento e organização do conteúdo para quem edita e a confiança do leitor em sua capacidade de compreender e aproveitar o texto. Ou seja, as _tags_ também ajudam a distinguir duas funções da informação muito diferentes, mas caras à documentação de um software: Aprendizagem e Referência.
 
-Por isso, as tags devem:
+Por isso, as _tags_ devem:
 - Simplificar a percepção;
 - Simplificar a escolha;
 - Simplificar o pensamento;
