@@ -69,7 +69,7 @@ Carregar e configurar ambiente virtual
                        3.2 Novo projeto c++ build tools
                        3.3 Iniciar ambiente virtual, seguindo os passos. 
 
-Seguindo os passos aqui, você deverá baixar o Visual Studio e baixar as configurações … Note que muitas vezes as versões Windows 10 SDK e MSVC v142 - VS 2019 C++ x64/x86 build tools serão atualizadas, portanto procure por itens similares em Componentes individuais para realizar a instalação (ou seja, mais novos). Atualmente são SDK do Windows 10 e Ferramentas de build do MSVC v143 - VS 2022 C++ x64/x86 (v14.32-17.2). Além disso, marque a opção “Desenvolvimento para desktop com C++” em cargas de trabalho no Visual Studio
+Seguindo os passos aqui, você deverá baixar o Visual Studio e baixar as configurações … Note que muitas vezes as versões [[Windows]] 10 SDK e MSVC v142 - VS 2019 C++ x64/x86 build tools serão atualizadas, portanto procure por itens similares em Componentes individuais para realizar a instalação (ou seja, mais novos). Atualmente são SDK do Windows 10 e Ferramentas de build do MSVC v143 - VS 2022 C++ x64/x86 (v14.32-17.2). Além disso, marque a opção “Desenvolvimento para desktop com C++” em cargas de trabalho no Visual Studio
 
 
 Abra a sua conta no github e dê um fork nesse repositório, após isso configure seu ambiente virtual para trabalhar isoladamente ao sistema do QD. Caso não tenha baixado o Git no seu computador, é necessário fazer seu download aqui. 

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2f7592ad210e0360",
+        "id": "f00470245f71163c",
         "type": "tabs",
         "children": [
           {
-            "id": "7b60041b707362e6",
+            "id": "902b6702175c014f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -120,6 +120,16 @@
               "type": "outline",
               "state": {}
             }
+          },
+          {
+            "id": "c17f88e767b8285f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -154,20 +164,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7b60041b707362e6",
+  "active": "902b6702175c014f",
   "lastOpenFiles": [
+    "Novos Arquivos/json.md",
+    "Untitled.canvas",
+    "Sendbox/Estrutura geral QD.md",
+    "Novos Arquivos/Acessando as bases pela API.md",
+    "Novos Arquivos/Windows.md",
+    "Comece por aqui/Comece por aqui.md",
+    "Sendbox/Estrutura do editor da documetação.md",
+    "Sendbox/acompanhamento.md",
+    "Sendbox/templates/doc_template.md",
+    "Sendbox/guia-do-colaborador-da-documentação/Porque essa pasta existe.md",
+    "Novos Arquivos/API.md",
     "Novos Arquivos/O querido diário.md",
     "Novos Arquivos/Diários oficiais.md",
-    "Sendbox/Estrutura geral QD.md",
-    "Sendbox/Estrutura do editor da documetação.md",
-    "Novos Arquivos/API.md",
-    "Novos Arquivos/Acessando as bases pela API.md",
-    "Comece por aqui/Comece por aqui.md",
-    "Sendbox/templates/doc_template.md",
-    "Sendbox/acompanhamento.md",
     "Pasted image 20230906150850.png",
     "Pasted image 20230906150603.png",
-    "Sendbox/guia-do-colaborador-da-documentação/Porque essa pasta existe.md",
     "Novos Arquivos/artigo tanto.md",
     "Novos Arquivos/Untitled 1.md",
     "Novos Arquivos/Untitled.md",
@@ -185,10 +198,8 @@
     "Repositórios.md",
     "02-o-querido-diario/O que é o Querido Diário.md",
     "Comece por aqui",
-    "Um **Diário Oficial** é uma publicação feita por vários esferas da administração pública brasileira.md",
     "install_pre_commit.sh",
     "Sendbox/templates",
-    "Sendbox/guia-do-colaborador-da-documentação/Porque essa pasta existe?.md",
     "templates/Untitled",
     "templates"
   ]

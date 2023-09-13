@@ -1,12 +1,6 @@
 1. Padronização: Como garantir a qualidade das contribuições? Utilizando pré-commits que garantam que arquivos bem formatados em um padrão estipulado sejam enviados ao repo? Conversar com os colegas a respeito, mas o mínimo de uma formatação padrão está em um arquivo `.editorconfig`.
 
-2. As pastas limitam o conteúdo engessam a criação. O Horu, comentou que tem TDHA e certa dificuldade em decidir, por exemplo, em qual categoria (função que as pastas desempenham) encaixar determinado assunto. Isso me fez pensar que a preocupação com a  neurodiversidade é fundamental  e deve ser uma das diretrizes da documentação.
-
-Por tanto, esse é mais um ponto desfavorável a uma documentação rigidamente hierárquica. Mesmo assim, uma hierarquia ainda me parece necessária. 
-
-Esses blocos podem ser rotulados da seguinte forma:
-
-Pensando nisso, chego a conclusão que as _tags_ são um caminho para a organização da documentação. As _tags_ são uma forma hierárquica _suave_. Isso porque, ao adicionar _tags_ a um grupo de documentos, podemos considerá-las um grupo coerente - funcionando como uma forma de organização espacial sem ter que mover nada de um lugar para o outro.
+2. As pastas limitam o conteúdo e engessam a criação. Nesse sentido, as _tags_ são um caminho para a organização da documentação. As _tags_ são uma forma hierárquica _suave_. Isso porque, ao adicionar _tags_ a um grupo de documentos, podemos considerá-las um grupo coerente - funcionando como uma forma de organização espacial sem ter que mover nada de um lugar para o outro.
 
 Isso converge com a ideia de que a documentação deve ser capaz de se adaptar e se reorganizar de acordo com as necessidades dos diferentes tipos de leitores em vez de oferecer uma versão _"tamanho único"_. Portanto,  os blocos de informação são importantes;  organizam o conhecimento em pedaços padronizados que podem ser misturados e combinados para atender uma necessidade específica. Simplifica a vida tanto de quem escreve quanto de quem lê, pois permite uma personalização do processo de aprendizagem, ou seja, o leitor poderia ler do inicio ao fim, se for sua primeira passagem, ou um bloco específico mais relevante de acordo com sua necessidade. Da mesma forma, quem escreve, pode facilmente identificar os blocos que precisam ser editados, criados ou ampliados. 
 
