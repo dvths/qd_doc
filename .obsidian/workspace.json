@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sendbox/Estrutura do editor da documetação.md",
+                "file": "Novos Arquivos/querido-diario-data-processing.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 298.5
   },
   "right": {
     "id": "8fb9ae54563fff03",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sendbox/Estrutura do editor da documetação.md",
+                "file": "Novos Arquivos/querido-diario-data-processing.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sendbox/Estrutura do editor da documetação.md",
+                "file": "Novos Arquivos/querido-diario-data-processing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sendbox/Estrutura do editor da documetação.md"
+                "file": "Novos Arquivos/querido-diario-data-processing.md"
               }
             }
           },
@@ -174,14 +174,14 @@
   },
   "active": "b17f7c246fa56354",
   "lastOpenFiles": [
-    "Novos Arquivos/querido-diario.md",
-    "Novos Arquivos/O querido diário.md",
     "Novos Arquivos/QD data-processing.md",
+    "Novos Arquivos/querido-diario.md",
+    "Sendbox/Estrutura do editor da documetação.md",
+    "Novos Arquivos/O querido diário.md",
     "Anexos/imagens/fluxograma_1.png",
     "Novos Arquivos/querido-diario-data-processing.md",
     "Sendbox/Estrutura geral QD.md",
     "Sendbox/acompanhamento.md",
-    "Sendbox/Estrutura do editor da documetação.md",
     "Novos Arquivos/json.md",
     "Untitled.canvas",
     "Novos Arquivos/Acessando as bases pela API.md",
