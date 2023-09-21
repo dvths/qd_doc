@@ -15,7 +15,7 @@ https://github.com/okfn-brasil/querido-diario-api-wrapper
 https://queridodiario.ok.org.br/api/docs#/default/Search_for_content_in_gazettes_gazettes_get
 
 
-- 3.2 [[QD data-processing]]
+- 3.2 [[querido-diario-data-processing]]
 https://github.com/okfn-brasil/querido-diario-data-processing
 
 3.3 [[Diários oficiais]] completos
@@ -79,6 +79,9 @@ Para ter acesso aos raspadores é necessário criar um ambiente virtual capaz de
 Caso haja um erro com”pinned with ==” na hora de instalar os requerimentos, utilize o pip3 install e adicione um dos comandos abaixo:
 --use-pep517
 –no-deps
+
+Ainda é possível utilizar diferentes versões do Python:
+python[versao, ex: 3.9] -m pip install ...
 
 Ambiente instalado: Baixar diários oficiais.
 Baixando diários oficiais

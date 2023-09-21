@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f00470245f71163c",
+        "id": "425b7011912e730d",
         "type": "tabs",
         "children": [
           {
-            "id": "902b6702175c014f",
+            "id": "b17f7c246fa56354",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Sendbox/Estrutura do editor da documetação.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300.5
   },
   "right": {
     "id": "8fb9ae54563fff03",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Sendbox/Estrutura do editor da documetação.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Sendbox/Estrutura do editor da documetação.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Sendbox/Estrutura do editor da documetação.md"
+              }
             }
           },
           {
@@ -164,20 +172,24 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "902b6702175c014f",
+  "active": "b17f7c246fa56354",
   "lastOpenFiles": [
+    "Novos Arquivos/querido-diario.md",
+    "Novos Arquivos/O querido diário.md",
+    "Novos Arquivos/QD data-processing.md",
+    "Anexos/imagens/fluxograma_1.png",
+    "Novos Arquivos/querido-diario-data-processing.md",
+    "Sendbox/Estrutura geral QD.md",
+    "Sendbox/acompanhamento.md",
+    "Sendbox/Estrutura do editor da documetação.md",
     "Novos Arquivos/json.md",
     "Untitled.canvas",
-    "Sendbox/Estrutura geral QD.md",
     "Novos Arquivos/Acessando as bases pela API.md",
     "Novos Arquivos/Windows.md",
     "Comece por aqui/Comece por aqui.md",
-    "Sendbox/Estrutura do editor da documetação.md",
-    "Sendbox/acompanhamento.md",
     "Sendbox/templates/doc_template.md",
     "Sendbox/guia-do-colaborador-da-documentação/Porque essa pasta existe.md",
     "Novos Arquivos/API.md",
-    "Novos Arquivos/O querido diário.md",
     "Novos Arquivos/Diários oficiais.md",
     "Pasted image 20230906150850.png",
     "Pasted image 20230906150603.png",
@@ -191,12 +203,8 @@
     "Os Repositórios.md",
     "README.md",
     "O processamento de dados.md",
-    "A API Pública.md",
     "Novos Arquivos",
     "Solução de Erros",
-    "A Toolbox.md",
-    "Repositórios.md",
-    "02-o-querido-diario/O que é o Querido Diário.md",
     "Comece por aqui",
     "install_pre_commit.sh",
     "Sendbox/templates",
