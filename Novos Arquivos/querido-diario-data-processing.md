@@ -14,11 +14,33 @@ Sabendo desses pontos, é necessário configurar o ambiente:
 
 https://linuxize.com/post/how-to-install-pip-on-ubuntu-18.04/
 
+sudo apt install python3-venv -y
+sudo apt install python3.10-venv
+python3 -m venv .venv
+source .venv/bin/activate
 
- 1.  Utilizando somente Windows
+Ao iniciar uma nova máquina, já é possível acessá-la no menu iniciar do Windows. Por exemplo, caso tenha instalado o Ubuntu, pesquise assim:
+
+![[Pasted image 20230922140634.png]]
+
+ A partir daí já será possível realizar o git clone de um repositório forked do [[qd-data-processing]] e então criar e iniciar um ambiente virtual:
+ \py3 -m venv .venv
+ \source .venv/Scripts/activate
+
+Assim como está documentado no repositório. 
+
+Após essa etapa é necessário [[**conectar ao querido-diario**]] ao banco de dados gerados pelo repositório [[querido-diario]] o qual é responsável por extrair os diários oficiais.
+
+Para fazer a conexão você precisará ter baixado e instalado tudo que for necessário no repositório querido-diario em outro lugar na sua máquina WSL. Deixe as pastas próximas uma da outra para facilitar seu trabalho. Abra uma outra máquina Ubuntu para iniciar o repositório querido-diario.
+
+---- Mudar CSV para incluir ASSOCIAÇÕES (!!!)
+----- Mudar settings.py em querido-diario > data_collection > gazette > settings.py
+ 
+ 2. Utilizando somente Windows
+
  
  - Mac
  
-1. **Contribuindo no geral**
+2. **Contribuindo no geral**
 - Como salvar os diários oficiais de forma local
          a) Utilizando somente o repositório [[querido-diario]]
