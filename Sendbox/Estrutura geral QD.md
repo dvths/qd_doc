@@ -76,7 +76,7 @@ Abra a sua conta no github e dê um fork nesse repositório, após isso configur
 Caso tenha dificuldades em ativar o ambiente virtual, entre na pasta .venv criada e ative diretamente na pasta, utilizando (.\Scripts\activate.bat) para Windows, com a barra invertida. Caso isso seja feito será necessário voltar uma pasta (cd..) para executar os próximos comandos.  
 Para ter acesso aos raspadores é necessário criar um ambiente virtual capaz de isolar as mudanças feitas no repositório mas mesmo assim aproveitando-se do ecossistema criado pelo QD. A partir deste tutorial é possível configurar o ambiente, apenas atente-se com o sistema operacional utilizado, se Windows ou Linux, apenas o Passo 3 muda.
 
-Caso haja um erro com”pinned with ==” na hora de instalar os requerimentos, utilize o pip3 install e adicione um dos comandos abaixo:
+Caso haja um erro com”pinned with ==” na hora de instalar os requerimentos, utilize o pip2 install e adicione um dos comandos abaixo:
 --use-pep517
 –no-deps
 
