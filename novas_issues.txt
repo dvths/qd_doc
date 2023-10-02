@@ -1,0 +1,32 @@
+Vitoria - ES
+https://diariooficial.vitoria.es.gov.br/
+
+cACHOEIRO DE iTAPEMIRIM - ES
+https://diario.cachoeiro.es.gov.br/dio
+
+GO - Valparaiso de Goias
+https://diariooficial.valparaisodegoias.go.gov.br/
+
+Anapolis - GO -- 100 Maiores
+https://dom.anapolis.go.gov.br/
+
+Olinda - PE - 100 amiores
+https://www.olinda.pe.gov.br/tag/diario-oficial/
+
+Guarapuava - PR - 200 maiores
+https://www.guarapuava.pr.gov.br/boletins-oficiais/
+
+LINHARES ES - 200 MAIORES
+https://ioes.dio.es.gov.br/portal/visualizacoes/diario_oficial
+
+LIMEIRA - 100 MAIORES
+https://www.limeira.sp.gov.br/jornaloficial
+
+cAMACARI - 100 MAIORES
+https://www.camacari.ba.gov.br/arquivos/diario-oficial/
+
+aparecida de goiania
+https://github.com/okfn-brasil/querido-diario/blob/main/data_collection/gazette/spiders/go/go_aparecida_de_goiania.py
+
+goiania
+https://github.com/okfn-brasil/querido-diario/blob/main/data_collection/gazette/spiders/go/go_goiania.py

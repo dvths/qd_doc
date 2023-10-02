@@ -1,22 +1,16 @@
-O [repositório](https://github.com/okfn-brasil/querido-diario) [[querido-diario]] é responsável por ter acesso aos diário oficiais dos municípios brasileiros. Sua estrutura é organizada de modo a "raspar" os diários oficiais.
 
-O produto final de um repositório como esse é um conjunto de arquivos PDF não segmentado de um determinado município em uma data específica.
+O Querido Diário (QD), que teve sua plataforma desenvolvida pela _Open Knowledge Brasil_ e lançada em 2021, permite que qualquer pessoa faça buscas por conteúdos de diários municipais, concedendo a seleção por meio de palavras-chave, data e município [(Querido Diário, 2022)](https://queridodiario.ok.org.br/sobre). O QD representa o compromisso pela inovação cívica e desde 2018 mapeia cidades e seus meios de publicação para garantir que as publicações de atos públicos sejam de fácil acesso para qualquer cidadão, além de fomentar que esses dados estejam disponibilizados em formato digital. Veja as cidades em expansão [aqui](https://github.com/orgs/okfn-brasil/projects/12/views/13).
 
-### Entendendo a estrutura
+A Catarse, comunidade de financiamento coletivo brasileira, promoveu um vídeo para divulgar o trabalho da Open Knowledge Brasil. Confira. Assista ao [vídeo promocional de divulgação do Querido Diário realizado pelo Catarse](https://www.youtube.com/watch?time_continue=7&v=3QXciyBh_fw&embeds_widget_referrer=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1ZEV2u0I3Fb0X5fnhJ_iKQsQfY0z3xUUmNH305ybhXgg%2Fedit%3Fpli%3D1&embeds_referring_euri=https%3A%2F%2Fdocs.google.com%2F&embeds_referring_origin=https%3A%2F%2Fdocs.google.com&source_ve_path=Mjg2NjQsMjg2NjQsMjM4NTE&feature=emb_title) em 2020. 
+  
+O material elaborado pela Catarse enfatiza a importância política e social do Querido Diário no Brasil, visto que muitas informações sobre a gestão pública podem ser sistematizadas através de uma adequada extração e tratamento desses dados textuais. Atualmente, a estrutura de processamento do QD é baseada na Figura 2.
 
-1. Documentação
+Figura 2. Arquitetura de processamento dos diários oficiais dos municípios pelo Querido Diário
+ ![](https://lh3.googleusercontent.com/4qLNEW7E0oy3uS_kFKAfZophMgHI6rskPbt81DSFRsPYcDhzhAbLpdQm6Wk9YjWuBfasRUYjYjdJPQFLYVJzH1SnQLW4URBbVXmdLM2uQG7gu6r6bgU-xDPuwAuXIQ1cpTW9LbADcnWkcCLTtR_Ng7M)
+Fonte: Querido Diário ().
 
-A pasta "docs" é responsável por certificar boas práticas de desenvolvimento e acesso a esse repositório.
+A princípio, através da página do diário oficial do município são coletadas as primeiras informações por meio de raspadores, o objetivo é indexar os resultados encontrados no website e salvá-los em conteúdos disponíveis para análise. A partir dessa indexação de conteúdo, os dados são separados em dois tipos de arquivos, um que é o diário oficial, ou seja, é como se você tivesse feito o download desse diário na página específica de uma prefeitura. O outro arquivo possui os metadados desses diários coletados, já que a extração desse conteúdo não configura-se em 1 por vez, mas sim, uma grande quantidade que precisa ser indexada ao seu conteúdo original, para que habilite seu uso para análises posteriores.
 
-2. Ambiente de desenvolvimento
+A seguir, os metadados coletados e o texto e fontes (URLs) são compilados através do _ElasticSearch_ que é capaz de buscar relações desses documentos por palavras-chave de forma eficiente, é por meio desse processo que é disponibilizada a API do QD, que permite realizar buscas desses conteúdos de forma externa ao ambiente de desenvolvimento. A API, por sua vez, é componente-chave para a execução da plataforma de visualização do QD.
 
-"data_collection"
-
-3. Raspadores
-
-"data_collection" > "spiders"
-
-4. Habilitando os raspadores para produção
-
-"scripts"
-
+Entenda como funciona a estrutura geral do Querido Diário e suas diversas frentes em [[Estrutura geral QD]]. Nessa nota será possível notar sobre as diferentes formas de contribuição que podem ser feitas no âmbito do Querido Diário e os diversos desdobramentos sociais e científicos que podem ser alavancados em conjunto à comunidade.

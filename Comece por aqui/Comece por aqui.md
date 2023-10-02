@@ -1,5 +1,4 @@
 - [[O querido diário]]
-- [[A Arquitetura do Projeto]]
 - [[A coleta de dados]]
 - [[O processamento de dados]]
 - [[A Toolbox]]
