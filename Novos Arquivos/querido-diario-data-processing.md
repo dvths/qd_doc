@@ -1,4 +1,4 @@
-_Atualizado em: {{date}} 26/09/2023_
+_Atualizado em: 02/10/2023
 
 O repositório [querido-diario-data-processing](https://github.com/okfn-brasil/querido-diario-data-processing) tem como objetivo gerar buscas mais assertivas para o usuário por meio do uso de técnicas de processamento de linguagem natural. O processo desse repositório pode ser referenciado a partir da imagem da Infraestrutura do Querido Diário no [[fluxograma_1.png]]. As partes referentes à indexação e extração do texto são responsabilidade desse repositório em específico. Afinal, para ter os documentos em formato de texto (.txt) disponíveis na [plataforma](https://queridodiario.ok.org.br/) é necessário que seja feito um processamento desse conteúdo (os PDFs coletados previamente pelo repositório [querido-diario](https://github.com/okfn-brasil/querido-diario)).
 
@@ -38,8 +38,10 @@ Ao iniciar uma nova máquina, já é possível acessá-la no menu iniciar do Win
 ![[Pasted image 20230922140634.png]]
 
  A partir daí já será possível realizar o git clone de um repositório forked do [[qd-data-processing]] e então criar e iniciar um ambiente virtual:
+~~~git
  \py3 -m venv .venv
  \source .venv/Scripts/activate
+ ~~~
 
 Assim como está documentado no repositório. 
 
@@ -56,7 +58,7 @@ O que é necessário resolver:
 - [ ] Habilitar pasta \\mnt no Windows
 - [ ] ...
 
-Caso haja um erro com”pinned with ==” na hora de instalar os requerimentos, utilize o pip2 install e adicione um dos comandos abaixo:
+Caso haja um erro com "pinned with == "  na hora de instalar os requerimentos, utilize o pip3 install e adicione um dos comandos abaixo:
 ~~~git
 --use-pep517
 –no-deps

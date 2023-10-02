@@ -8,7 +8,7 @@ O front-end se refere ao desenvolvimento de sites sobre os diversos projetos que
 Procurando por ‘backend’ no repositório da OKBR, é possível encontrar os repositórios dedicados ao back-end, que são as operações internas realizadas para que os sites sejam funcionais. Você pode ver como contribuir aqui.
 
 - [[Ciência de dados]]
-3.1 [[[[API]] Wrapper]]
+3.1 [[API]] Wrapper]]
 
 https://github.com/okfn-brasil/querido-diario-api-wrapper
 

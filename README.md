@@ -1,5 +1,5 @@
 <!--toc:start-->
-
+[[Guia do Colaborador]]
 - [Boas vindas ao repositório da documentação do projeto Querido Diário.](#boas-vindas-ao-repositório-da-documentação-do-projeto-querido-diário)
 - [Contribuindo para a Documentação do Querido Diário](#contribuindo-para-a-documentação-do-querido-diário)
   - [Instalação e Configuração do Obsidian](#instalação-e-configuração-do-obsidian)

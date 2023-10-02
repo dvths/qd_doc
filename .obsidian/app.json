@@ -3,5 +3,11 @@
   "vimMode": true,
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "Novos Arquivos"
+  "newFileFolderPath": "Novos Arquivos",
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
