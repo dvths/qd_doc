@@ -11,8 +11,12 @@
             "id": "b59c05217bbae204",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Novos Arquivos/conectar ao querido-diario.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Novos Arquivos/conectar ao querido-diario.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Novos Arquivos/conectar ao querido-diario.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Novos Arquivos/conectar ao querido-diario.md"
+              }
             }
           },
           {
@@ -168,19 +176,28 @@
   "active": "b59c05217bbae204",
   "lastOpenFiles": [
     "Novos Arquivos/querido-diario-data-processing.md",
-    "Novos Arquivos/conectar ao querido-diario.md",
     "Novos Arquivos/querido-diario.md",
-    "Novos Arquivos/O processamento de dados.md",
+    "Novos Arquivos/conectar ao querido-diario.md",
     "Comece por aqui/Comece por aqui.md",
+    "Pasted image 20231005104343.png",
+    "Pasted image 20231005104340.png",
+    "Pasted image 20231005103545.png",
+    "Pasted image 20231005102449.png",
+    "Pasted image 20231005100534.png",
+    "Pasted image 20231005100446.png",
+    "Novos Arquivos/qd-data-processing.md",
+    "Pasted image 20231005085703.png",
+    "Novos Arquivos/O processamento de dados.md",
+    "Novos Arquivos/A coleta de dados.md",
+    "Novos Arquivos/Querido Diário.md",
+    "Sendbox/Estrutura geral QD.md",
     "Novos Arquivos/issues e pull requests.md",
     "novas_issues.txt",
     "Novos Arquivos/issues_ e _pull requests.md",
     "Novos Arquivos/Os Repositórios.md",
-    "Novos Arquivos/A coleta de dados.md",
     "Novos Arquivos/A Arquitetura do Projeto.md",
     "Novos Arquivos/O querido diário.md",
     "Novos Arquivos/A API Pública.md",
-    "Sendbox/Estrutura geral QD.md",
     "Novos Arquivos/Tutoriais.md",
     "Sendbox/templates/doc_template.md",
     "Sendbox/Logs de revisão.md",
@@ -191,8 +208,6 @@
     "Novos Arquivos/Guia do Colaborador.md",
     "Novos Arquivos/[API.md",
     "Novos Arquivos/API.md",
-    "Novos Arquivos/Querido Diário.md",
-    "Novos Arquivos/Acessando as bases pela API.md",
     "Untitled 5.canvas",
     "querido-diario-data-processing.pdf",
     "Untitled 4.canvas",
@@ -202,7 +217,6 @@
     "Anexos/imagens/fluxograma_1.png",
     "Pasted image 20230906150603.png",
     "Pasted image 20230906150850.png",
-    "Pasted image 20230922140634.png",
     "Untitled.canvas",
     "Novos Arquivos",
     "Solução de Erros",
