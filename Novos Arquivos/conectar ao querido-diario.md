@@ -1,12 +1,53 @@
 
------ Mudar settings.py em querido-diario > data_collection > gazette > settings.py
+- [x]  como configurar as credenciais em ambos os projetos para que eles se comuniquem
+- [x]  como realizar um seed no data-processing usando um spider do querido-diario
 
-- [ ]  como configurar as credenciais em ambos os projetos para que eles se comuniquem
-- [ ]  como realizar um seed no data-processing usando um spider do querido-diario
+## Configurando as credenciais para a comunicação dos dois projetos
 
-- **Windows**
+Para configurar as credenciais é necessário mudar alguns parâmetros em **settings.py**. No repositório do [querido-diario]() na sua máquina vá até data_collection depois gazette e finalmente abra no seu editor de código o arquivo settings.py.
 
-1. **Usando WSL**
+Mude os seguintes parâmetros:
+
+~~~Python
+###linha 21
+FILES_STORE = config("FILES_STORE", default="data")
+
+### Substitua por:
+FILES_STORE = config("FILES_STORE", default="s3://queridodiariobucket/")
+
+### linhas 44 a 46
+QUERIDODIARIO_DATABASE_URL = config(
+    "QUERIDODIARIO_DATABASE_URL", default="sqlite:///querido-diario.db"
+)
+
+### Substitua por:
+QUERIDODIARIO_DATABASE_URL = config( "QUERIDODIARIO_DATABASE_URL", default="postgresql://queridodiario:queridodiario@127.0.0.1:5432/queridodiariodb" )
+
+### linhas 52 a 56
+AWS_ACCESS_KEY_ID = config("AWS_ACCESS_KEY_ID", default="")
+AWS_SECRET_ACCESS_KEY = config("AWS_SECRET_ACCESS_KEY", default="")
+AWS_ENDPOINT_URL = config("AWS_ENDPOINT_URL", default="")
+AWS_REGION_NAME = config("AWS_REGION_NAME", default="")
+FILES_STORE_S3_ACL = config("FILES_STORE_S3_ACL", default="public-read")
+
+# Substitua por
+AWS_ACCESS_KEY_ID = config("AWS_ACCESS_KEY_ID", default="minio-access-key")
+AWS_SECRET_ACCESS_KEY = config("AWS_SECRET_ACCESS_KEY", default="minio-secret-key")
+AWS_ENDPOINT_URL = config("AWS_ENDPOINT_URL", default="http://localhost:9000/")
+AWS_REGION_NAME = config("AWS_REGION_NAME", default="us-east-1")
+FILES_STORE_S3_ACL = config("FILES_STORE_S3_ACL", default="public-read")
+~~~
+
+Abra 2 terminais (1 com o repositório do [querido-diario-data-processing]() e outro com o [querido-diario](), ambos forked). Realize o **make setup** no repositório de processamento de dados e faça a busca scrapy crawl no repositório do querido-diario. Após isso, é possível
+## Configurando o ambiente do querido-diario
+
+### Linux
+
+
+### Windows
+
+#### Usando WSL
+
 Abra um novo terminal do Ubuntu e faça o clone do repositório forked do [querido-diario](). 
 
 Para fazer a conexão você precisará ter baixado e instalado tudo que for necessário no repositório [querido-diario]() em outro lugar na sua máquina WSL. Deixe as pastas próximas uma da outra para facilitar seu trabalho. Abra uma outra máquina Ubuntu para iniciar o repositório querido-diario.
@@ -33,7 +74,7 @@ python3 -m pip install --upgrade pip
 sudo apt-get install build-essential libssl-dev libffi-dev python3-dev
 ~~~
 
-2. **Usando o terminal do Windows**
+#### Usando o terminal do Windows
 
 Lembre-se que para conectar o Banco de Dados é necessário vincular o terminal Windows com o Linux. Caso você não queira conectar é possível apenas fazer essas passos....
 
@@ -48,3 +89,7 @@ Baixe o Visual Studio Comunidade [aqui](https://visualstudio.microsoft.com/pt-br
 Em **Componentes Individuais** selecione "SDK do Windows 10" ou '11 e Ferramentas de build do MSVC v143 - VS 2022 C++ x64/x86 (v14.32-17.4)". Ou conteúdo similares. Note que muitas vezes as versões Windows 10 SDK e MSVC v142 - VS 2019 C++ x64/x86 build tools serão atualizadas, portanto procure por itens similares em Componentes individuais para realizar a instalação (ou seja, mais novos)
 
 Em **Cargas de Trabalho**, selecione “Desenvolvimento para desktop com C++”.
+
+- **Mac**
+
+...
