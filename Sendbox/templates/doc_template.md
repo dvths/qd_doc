@@ -11,5 +11,5 @@ alias: <%tp.file.title%>
 ---
 ## Referências
 
-
+[[Guia do Colaborador]]
 
